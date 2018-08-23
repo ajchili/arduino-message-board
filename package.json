@@ -1,0 +1,21 @@
+{
+  "name": "arduino-message-board",
+  "version": "1.0.0",
+  "description": "Simple web/arduino message board.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirin Patel",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "serialport": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
